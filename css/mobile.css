@@ -1,6 +1,12 @@
 
-@media screen(min-width: 480px;){
-    .container{
+@media screen and (min-width: 480px) {
+    .container {
+      width: 480px;
+    }
+    .container-footer{
         width: 480px;
     }
+    .container-portfolio{
+        width: 480px;
     }
+  }
