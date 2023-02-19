@@ -168,6 +168,7 @@ margin-left: 50px;
 }
 .menu-open{
     display: flex;
+    margin-left: auto;
     margin-right: 0;
     height: 40px;
     padding: 10px 0 10px 0;
