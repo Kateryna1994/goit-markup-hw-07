@@ -14,7 +14,7 @@ textarea{
 }
 
 body {
-    padding-top: 80px;
+    padding-top: 60px;
     font-family: roboto, sans-serif;
     background-color:var(--primary-white-color);
     color: var(--primery-text-color);
