@@ -9,4 +9,7 @@
     .container-portfolio{
         width: 480px;
     }
+    .modal {
+      width: 95%;
+    }
   }

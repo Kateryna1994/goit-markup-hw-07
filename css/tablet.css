@@ -4,13 +4,48 @@
     .container {
       width: 768px;
     }
+    .site-nav{
+      display: flex;
+      margin-left: 88px;
+  }
+  
+  .header{
+    position: fixed;
+    height: 80px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--primary-white-color);
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #eeeeee;
+    z-index: 1;
+}
+  .contact{
+    display: block;
+    margin-left: auto;
+    font-size: 12px;
+    line-height: 1.67;
+    font-weight: 500;
+}
+
+  .menu-open{
+    display: none;
+  }
+  .mob-menu{
+    display: none;
+  }
+  
   .overlay{
-    width: 768px;
+    max-width: 768px;
+    height: 600px;
     background-image: linear-gradient( 
         to right,
-          rgba(47, 48, 58, 0.4), 
+         rgba(47, 48, 58, 0.4), 
          rgba(47, 48, 58, 0.4)), 
-         url(../images/Header1.jpg);
+         url(../images/Imgpfone.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
   }
   @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
@@ -21,8 +56,8 @@
          rgba(47, 48, 58, 0.4), 
          rgba(47, 48, 58, 0.4)), 
          url(../images/Header-tab-2x.jpg);
+    }
   }
-}
     .title-items{
         width: calc((100% - 30px) / 2);
     }
@@ -94,5 +129,8 @@
     .form-subscription input{
       width: 450px;
     }
-    
+    .modal {
+      width: 450px;
+      height: auto;
+  }
   }
