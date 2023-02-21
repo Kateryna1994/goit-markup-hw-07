@@ -71,7 +71,6 @@
 
   
     .overlay{
-      max-width: 1600px;
       height: 600px;
       background-image: linear-gradient( 
           to right,
@@ -80,8 +79,7 @@
            url(../images/Imgpfone.jpg);
       background-repeat: no-repeat;
       background-position: center;
-      background-size: cover;
-  }
+    }
   @media (min-device-pixel-ratio: 2),
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
@@ -97,7 +95,6 @@
     max-width: 696px;
     font-size: 44px;
     line-height: 1.36;
-    max-width: 696px;
 }
 .hero{
   padding-top: 200px;
@@ -231,6 +228,7 @@
     }
     .footer-thumb{
       margin-right: 94px;
+      margin-bottom: 0;
       padding: 0;
     }
     .footer-subscription{

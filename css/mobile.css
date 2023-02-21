@@ -9,6 +9,9 @@
     .container-portfolio{
         width: 480px;
     }
+    .logo{
+      padding-top: 16px;
+    }
     .social-media{
       gap: 0;
   }

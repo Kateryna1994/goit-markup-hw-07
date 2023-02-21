@@ -31,7 +31,9 @@
     line-height: 1.67;
     font-weight: 500;
 }
-
+  .menu-container{
+    display: none;
+  }
   .menu-open{
     display: none;
   }
@@ -40,7 +42,6 @@
   }
   
   .overlay{
-    max-width: 768px;
     height: 400px;
     background-image: linear-gradient( 
         to right,

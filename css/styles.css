@@ -323,6 +323,8 @@ img{
     padding-bottom: 118px;
     text-align: center;
     align-items: center;
+    background-size: cover;
+    max-width: 1600px;
 }
 
 .hero .hero-title{
