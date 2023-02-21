@@ -54,7 +54,7 @@
                     </button>
                     <nav>
                         <ul class="mob-menu-nav list">
-                            <li class="mob-menu-item"> <a href="./index.html" class="link mob-menu-title">Студія</a></li>
+                            <li class="mob-menu-item"> <a href="./index.html" class="link mob-menu-title current">Студія</a></li>
                             <li class="mob-menu-item"> <a href="./portfolio.html" class="link mob-menu-title">Портфоліо</a></li>
                             <li class="mob-menu-item"> <a href="./index.html" class="link mob-menu-title">Контакти</a></li>
                         </ul>
@@ -93,7 +93,7 @@
     <main>
             <section class="hero overlay">
                 <div class="container">
-                    <h1 class="hero-title">Ефективні рішення для <br> вашого бізнесу</h1>
+                    <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
                 <button data-modal-open class="hero-list">Замовити послугу</button>
                 </div>
             </section>
@@ -145,15 +145,40 @@
                 <h2 class="heading">Чим ми займаємося</h2>
                 <ul class="list image-block">
                     <li class="image-title">
-                        <img class="image" src="./images/img.jpg" alt="робота за ноутбуком" width="370">
+                        <picture>
+                            <source srcset="
+                            ./images/img.jpg 1x,
+                            ./images/imgwork(3)2x.jpg 2x"
+                            media="(min-width: 1200px)">
+                        </picture>
+                        <img class="image" 
+                        src="./images/img.jpg" 
+                        alt="робота за ноутбуком" width="370">
                         <p class="work">Десктопні додатки</p>
                     </li>
                     <li class="image-title">
-                        <img class="image" src="./images/img(1).jpg" alt="ноутбук на столі" width="370">
+                        <picture>
+                            <source srcset="
+                            ./images/img(1).jpg 1x,
+                            ./images/imgwork2x.jpg 2x"
+                            media="(min-width: 1200px)">
+                        </picture>
+                        <img class="image" 
+                        src="./images/img(1).jpg" 
+                        alt="ноутбук на столі" width="370">
                         <p class="work">Мобільні додатки</p>
                     </li>
                     <li class="image-title">
-                        <img class="image" src="./images/img(2).jpg" alt="планшет в руках" width="370">
+                        <picture>
+                            <source srcset="
+                            ./images/img(2).jpg 1x,
+                            ./images/imgwork(2)2x.jpg 2x"
+                                media="(min-width: 1200px)">
+                        </picture>
+                        <img class="image" 
+                        src="./images/img(2).jpg" 
+                        alt="планшет в руках" width="370"
+                        >
                         <p class="work">Дизайнерські рішення</p>
                     </li>
                </ul>
@@ -165,12 +190,24 @@
                 <h2 class="heading-sitebar">Наша команда</h2>
                 <ul class="list sidebar-container">
                     <li class="flex-title">
+                        <picture>
+                            <source srcset="
+                            ./images/img(0)(1).jpg 1x,
+                            ./images/img(4)2x.jpg 2x"
+                            media="(min-width: 1200px)">
+                            <source srcset="
+                            ./images/imgtab.jpg 1x,
+                            ./images/imgtab2x.jpg 2x"
+                            media="(min-width: 768px)">
+                            <source srcset="
+                            ./images/imgmob.jpg 1x,
+                            ./images/imgmob2x.jpg 2x"
+                            media="(min-width: 320px)">
                             <img 
                             src="./images/img(0)(1).jpg" 
                             alt="продукт дезайнер"
-                            srcset="
-                            ./images/img(0)(1).jpg 1x,
-                            ././images/img(4)2x.jpg 2x">
+                            >
+                            </picture>
                         <div class="flex-contant">
                             <h3 class="section-title">Ігор Дем'яненко</h3>
                             <p class="item">Product Designer</p>
@@ -199,12 +236,24 @@
                         </div>
                     </li>
                     <li class="flex-title">
+                        <picture>
+                            <source srcset="
+                            ./images/img(1)(1).jpg 1x,
+                            ./images/img2x.jpg 2x"
+                            media="(min-width: 1200px)">
+                            <source srcset="
+                            ./images/imgtab(1).jpg 1x,
+                            ./images/imgtab(1)2x.jpg 2x"
+                            media="(min-width: 768px)">
+                            <source srcset="
+                            ./images/imgmob(1).jpg 1x,
+                            ./images/imgmob(1)2x.jpg 2x"
+                            media="(min-width: 320px)">
                             <img 
                             src="./images/img(1)(1).jpg" 
                             alt="фронтенд розробник"
-                            srcset="
-                            ./images/img(1)(1).jpg 1x,
-                            ././images/img2x.jpg 2x">
+                            >
+                        </picture>
                         <div class="flex-contant">
                             <h3 class="section-title">Ольга Рєпіна</h3>
                         <p class="item">Frontend Developer</p>
@@ -230,16 +279,28 @@
                                 </svg></a>
                             </li>
                         </ul>
-                        </div>
-                          
+                        </div>     
                     </li>
                     <li class="flex-title">
+                        <picture>
+                            <source srcset="
+                            ./images/img(2)(1).jpg 1x,
+                            ./images/img(2)2x.jpg 2x"
+                            media="(min-width: 1200px)">
+                            <source srcset="
+                            ./images/imgtab(2).jpg 1x,
+                            ./images/imgtab(2)2x.jpg 2x"
+                            media="(min-width: 768px)">
+                            <source srcset="
+                            ./images/imgmob(2).jpg 1x,
+                            ./images/imgmob(2)2x.jpg 2x"
+                            media="(min-width: 320px)">
                             <img 
                             src="./images/img(2)(1).jpg" 
                             alt="маркетинг"
-                            srcset="
-                            ./images/img(2)(1).jpg 1x,
-                            ././images/img(2)2x.jpg 2x">
+                            >
+                            </picture>
+                            
                         <div class="flex-contant">
                             <h3 class="section-title">Микола Тарасов</h3>
                             <p class="item">Marketing</p>
@@ -268,12 +329,24 @@
                         </div>
                     </li>
                     <li class="flex-title">
+                        <picture>
+                            <source srcset="
+                            ./images/img(3)(1).jpg 1x,
+                            ./images/img(3)2x.jpg 2x"
+                            media="(min-width: 1200px)">
+                            <source srcset="
+                            ./images/imgtab(3).jpg 1x,
+                            ./images/imgtab(3)2x.jpg 2x"
+                            media="(min-width: 768px)">
+                            <source srcset="
+                            ./images/imgmob(3).jpg 1x,
+                            ./images/imgmob(3)2x.jpg 2x"
+                            media="(min-width: 320px)">
                             <img 
                             src="./images/img(3)(1).jpg" 
                             alt="юл дизайнер"
-                            srcset="
-                            ./images/img(3)(1).jpg 1x,
-                            ././images/img(3)2x.jpg 2x">
+                            >
+                            </picture>
                         <div class="flex-contant">
                             <h3 class="section-title">Михайло Єрмаков</h3>
                             <p class="item">UI Designer</p>

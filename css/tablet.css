@@ -41,12 +41,12 @@
   
   .overlay{
     max-width: 768px;
-    height: 600px;
+    height: 400px;
     background-image: linear-gradient( 
         to right,
          rgba(47, 48, 58, 0.4), 
          rgba(47, 48, 58, 0.4)), 
-         url(../images/Imgpfone.jpg);
+         url(../images/Header1.jpg);
     background-repeat: no-repeat;
     background-position: center;
   }
@@ -119,21 +119,24 @@
         width: 768px;
     }
     .socials{
-      margin-left: 165px;
+      margin-bottom: 0;
     }
     .footer-thumb{
       display: flex;
       align-items: baseline;
       margin-left: auto;
       margin-right: auto;
-      padding-left: 61px;
-
+      margin-bottom: 60px;
+      justify-content: space-around;
+    }
+    .footer-nav{
+      margin-bottom: 0;
     }
     .form-subscription input{
       width: 450px;
     }
     .modal {
-      width: 450px;
+      /* width: 450px; */
       height: auto;
   }
   }

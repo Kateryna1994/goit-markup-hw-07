@@ -9,6 +9,9 @@
     .container-portfolio{
         width: 480px;
     }
+    .social-media{
+      gap: 0;
+  }
     .modal {
       width: 95%;
     }
